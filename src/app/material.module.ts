@@ -16,7 +16,8 @@ import {
   MatDialogModule,
   MatTableModule,
   MatSortModule,
-  MatPaginatorModule
+  MatPaginatorModule,
+  MatSnackBarModule
 } from "@angular/material";
 import { MatFormFieldModule } from "@angular/material/form-field";
 
@@ -39,7 +40,8 @@ import { MatFormFieldModule } from "@angular/material/form-field";
     MatDialogModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSnackBarModule
   ],
   exports: [
     MatButtonModule,
@@ -59,7 +61,8 @@ import { MatFormFieldModule } from "@angular/material/form-field";
     MatDialogModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatSnackBarModule
   ]
 })
 export class MaterialModule {}
