@@ -1,10 +1,6 @@
 import { Action, createFeatureSelector, createSelector } from "@ngrx/store";
 import {
   TrainingActions,
-  SetAvailableTrainings,
-  SetFinishedTrainings,
-  StartTraining,
-  StopTraining,
   SET_AVAILABLE_TRAININGS,
   SET_FINISHED_TRAININGS,
   START_TRAINING,

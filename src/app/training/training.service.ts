@@ -22,7 +22,6 @@ export class TrainingService {
 
   fetchAvailableExercises() {
     this.store.dispatch(new UI.StartLoading());
-    // this.uiService.loadingStateChanged.next(true);
     this.fbSubs.push(
       this.db
         .collection("availableExercises")
